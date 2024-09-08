@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[BonerGuy],Health:0.0f}"
+            }
+          }
+        ]
+      }
+    },
+    "respawned": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[BonerGuy],Health:20.0f}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "respawned"
+    ],
+    [
+      "died"
+    ]
+  ],
+  "rewards": {
+    "function": "camo:boner/death_item"
+  }
+}
