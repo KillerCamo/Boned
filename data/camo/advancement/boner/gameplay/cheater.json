@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bone_meal"
+      },
+      "title": "Cheating for Science!",
+      "description": "Make a huge mistake by trying to dupe bone meal...",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "camo:boner_event",
+    "criteria": {
+      "dead_with_scum": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[BonerGuy,Scumbag],Health:0.0f}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "dead_with_scum"
+      ]
+    ]
+  }
+  

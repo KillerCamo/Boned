@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[ImmuneToBoner]}"
+              }
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "min": 0,
+            "max": 500
+          },
+          "taken": {
+            "min": 0,
+            "max": 500
+          },
+          "source_entity": {
+            "type": "minecraft:player",
+            "nbt": "{Tags:[BonerGuy]}",
+            "equipment": {
+              "mainhand": {
+                "nbt": "{Boner:1b}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "camo:boner/add_to_player"
+  }
+}
