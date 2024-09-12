@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "boned": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "player": [
@@ -10,7 +10,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[ImmuneToBoner]}"
+                "nbt": "{Tags:[BonedImmunity]}"
               }
             }
           }
@@ -26,7 +26,7 @@
           },
           "source_entity": {
             "type": "minecraft:player",
-            "nbt": "{Tags:[BonerGuy]}",
+            "nbt": "{Tags:[Boned]}",
             "equipment": {
               "mainhand": {
                 "nbt": "{Boner:1b}"
@@ -39,10 +39,10 @@
   },
   "requirements": [
     [
-      "requirement"
+      "boned"
     ]
   ],
   "rewards": {
-    "function": "camo:boner/add_to_player"
+    "function": "camo:boned/transfer/add_to_player"
   }
 }

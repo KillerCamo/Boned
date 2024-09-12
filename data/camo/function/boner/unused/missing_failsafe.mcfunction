@@ -1,4 +1,0 @@
-execute if data storage camo:boner_game_data {missing_failsafe_active:1b} run damage @a[tag=BonerGuy,limit=1] 1 camo:missing
-execute if data storage camo:boner_game_data {missing_failsafe_active:0b,punishment_active:0b} run tellraw @a[tag=BonerGuy] ["",{"text":"Warning! Boner is in a place that is inaccessible with commands! ","color":"red"},{"text":"Find it or die!","underlined":true,"color":"red"}]
-execute if data storage camo:boner_game_data {missing_failsafe_active:0b} run data merge storage camo:boner_game_data {missing_failsafe_active:1b}
-execute if data storage camo:boner_game_data {missing_failsafe_active:1b} run schedule function camo:boner/missing_failsafe 1.5s
