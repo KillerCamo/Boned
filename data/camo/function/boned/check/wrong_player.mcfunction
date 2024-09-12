@@ -1,0 +1,1 @@
+# checks if the wrong player has the bone stick

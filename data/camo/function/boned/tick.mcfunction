@@ -1,9 +1,6 @@
 function camo:boner/remove_from_offline_player with storage camo:boner_game_data {}
 function camo:boner/add_to_online_player with storage camo:boner_game_data {}
 #scoreboard players set @a[tag=!BonerGuy,scores={BonerGameTagBacks=1}] BonerGameTagBacks 0
-execute as @a run scoreboard players add @s BonerGameTagBacks 0
-execute as @a if score @s BonerGameTagBacks matches 1 run tag @s add ImmuneToBoner
-execute as @a if score @s BonerGameTagBacks matches 0 run tag @s remove ImmuneToBoner
 #data store
 #advancement revoke @a[tag=BonerGuy] only camo:boner/dead respawned - needs performance fix
 # execute if data storage camo:boner_game_data {punishment_active:1b} run data merge storage camo:boner_game_data {missing_failsafe_active:0b}

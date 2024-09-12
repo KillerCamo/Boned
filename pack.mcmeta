@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 34,
+    "pack_format": 48,
     "description": "Implements Boned to the server!"
   }
 }
