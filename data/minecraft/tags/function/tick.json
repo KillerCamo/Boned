@@ -1,5 +1,7 @@
 {
     "values": [
-        "camo:boned/check/immunity_remove"
+        "camo:boned/check/immunity_remove",
+        "camo:boned/check/item",
+        "camo:boned/check/wrong_player"
     ]
 }
