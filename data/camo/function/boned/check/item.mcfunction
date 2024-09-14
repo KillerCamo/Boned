@@ -20,4 +20,4 @@ execute if items entity @a[tag=Boned] hotbar.* bone[custom_data={Boned:1b}] run 
 execute if items entity @a[tag=Boned] player.cursor bone[custom_data={Boned:1b}] run return 1
 execute if items entity @a[tag=Boned] weapon.offhand bone[custom_data={Boned:1b}] run return 1
 give @a[tag=Boned] bone[custom_data={Boned:1b},minecraft:custom_model_data=69,minecraft:rarity=epic,minecraft:item_name='{"text":"Boner"}',minecraft:enchantments={levels:{vanishing_curse:1},show_in_tooltip:false}]
-function camo:boned/check/container
+function camo:boned/check/container_raycast
