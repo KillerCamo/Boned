@@ -1,42 +1,53 @@
 {
-    "description": {
-      "text": "DEBUG Boning (Unobtainable)"
-    },
-    "supported_items": "minecraft:bone",
-    "weight": 1,
-    "max_level": 1,
-    "min_cost": {
-      "base": 5,
-      "per_level_above_first": 20
-    },
-    "max_cost": {
-      "base": 999999999,
-      "per_level_above_first": 20
-    },
-    "anvil_cost": 0,
-    "slots": [
-      "mainhand"
-    ],
-    "effects": {
-      "minecraft:knockback": [
-        {
-          "effect": {
-            "type": "minecraft:add",
-            "value": {
-              "type": "minecraft:linear",
-              "base": 1,
-              "per_level_above_first": 1
-            }
-          },
-          "requirements": {
+  "description": {
+    "text": "Boning (Unobtainable)"
+  },
+  "supported_items": "minecraft:bone",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 20
+  },
+  "max_cost": {
+    "base": 999999999,
+    "per_level_above_first": 20
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        },
+        "requirements": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "type": "minecraft:player"
             }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"BonedImmunity\"]}"
+              }
+            }
           }
-        }
-      ]
-    }
+        ]
+      }
+    ]
   }
-  
+}

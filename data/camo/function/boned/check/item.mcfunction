@@ -1,8 +1,9 @@
 # only run checks when a Boned person is online to prevent unnecessary ticking
 execute unless entity @a[tag=Boned] run return 2
+execute if entity @a[tag=Boned,nbt={Health:0f}] run return 2
 # bone dupe check value (not a return) - enabled only cuz crafting grid
-execute unless items entity @a[tag=Boned] player.cursor bone[custom_data={Boned:1b}] store result score BoneOnPlayer BonerGame run clear @a[tag=Boned] bone[custom_data={Boned:1b}] 0
-execute unless score BoneOnPlayer BonerGame matches 0..1 run return run function camo:boned/check/duplication
+execute unless items entity @a[tag=Boned] player.cursor bone[custom_data={Boned:1b}] store result score BoneOnPlayer BonedGame run clear @a[tag=Boned] bone[custom_data={Boned:1b}] 0
+execute unless score BoneOnPlayer BonedGame matches 0..1 run return run function camo:boned/check/duplication
 
 execute if items entity @a[tag=Boned] inventory.* bone[custom_data={Boned:1b}] run return 1
 execute if items entity @a[tag=Boned] hotbar.* bone[custom_data={Boned:1b}] run return 1
