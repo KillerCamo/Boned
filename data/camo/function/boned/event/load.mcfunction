@@ -1,6 +1,7 @@
 # loads the scoreboards into the world
-scoreboard objectives add BonerGame dummy
-scoreboard objectives add BonerGameTagBacks dummy
+scoreboard objectives add BonedGame dummy
+scoreboard objectives add BonedGameLeaderboard dummy
+scoreboard objectives add BonedGameTagBacks dummy
 scoreboard objectives add BonedGameConfig dummy
 
 

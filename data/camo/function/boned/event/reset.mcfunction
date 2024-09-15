@@ -2,7 +2,7 @@
 tag @a remove Boned
 tag @a remove BonedTransfer
 tag @a remove BonedImmunity
-scoreboard players reset * BonerGameTagBacks
+scoreboard players reset * BonedGameTagBacks
 clear @a bone[custom_data={Boned:1b}]
 
 
