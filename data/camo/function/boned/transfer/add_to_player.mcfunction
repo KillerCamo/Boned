@@ -4,7 +4,7 @@ scoreboard players add @a[tag=BonedTransfer] BonerGame 1
 title @a[tag=BonedTransfer] title "Get Boned!"
 execute at @a[tag=BonedTransfer] run playsound item.totem.use player @a[tag=BonedTransfer] ~ ~ ~ 1
 effect give @a[tag=BonedTransfer] blindness 5 0 true
-give @a[tag=BonedTransfer] bone[custom_data={Boned:1b},minecraft:custom_model_data=69,minecraft:rarity=epic,minecraft:item_name='{"text":"Boner"}',minecraft:enchantments={levels:{vanishing_curse:1},show_in_tooltip:false}]
+function camo:boned/event/give_bone
 advancement revoke @a only camo:boned/function/boned
 tag @a[tag=BonedTransfer] add Boned
 return run tag @a[tag=BonedTransfer] remove BonedTransfer
