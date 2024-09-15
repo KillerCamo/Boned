@@ -1,0 +1,2 @@
+function camo:boned/event/give_bone
+$execute as @e[type=#camo:storable_containers] if items entity @s container.* bone[custom_data={Boned:1b}] run item replace entity @s container.$(entity_container) with air
