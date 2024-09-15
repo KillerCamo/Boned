@@ -1,0 +1,1 @@
+clear @a enchanted_book[minecraft:stored_enchantments={"camo:boning":1}]
