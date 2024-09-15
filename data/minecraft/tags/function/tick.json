@@ -3,7 +3,6 @@
         "camo:boned/check/immunity_remove",
         "camo:boned/check/item",
         "camo:boned/check/wrong_player",
-        "camo:boned/event/creative_enchant_clear",
-        "camo:boned/event/debug_particle"
+        "camo:boned/event/creative_enchant_clear"
     ]
 }
