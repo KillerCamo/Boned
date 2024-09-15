@@ -1,0 +1,1 @@
+function camo:boned/transfer/potion_transfer_prep with entity @a[tag=Boned,limit=1]
