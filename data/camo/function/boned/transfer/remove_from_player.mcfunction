@@ -4,6 +4,7 @@ tag @a[advancements={camo:boned/function/boning=true}] remove Boned
 tag @a[advancements={camo:boned/function/boning=true}] add BonedImmunity
 scoreboard players reset @a[tag=!BonedBlacklist] BonedGameTagBacks
 scoreboard players set @a[tag=BonedImmunity] BonedGameTagBacks 1
+scoreboard players set @a[tag=BonedImmunity] BonedGameBoned 0
 tag @a[tag=BonedAntiClear] remove BonedAntiClear
 advancement revoke @a only camo:boned/function/boning
 

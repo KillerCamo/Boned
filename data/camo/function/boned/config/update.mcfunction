@@ -1,0 +1,1 @@
+execute if score ConfigVersion BonedGame matches 1 run return 1

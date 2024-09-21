@@ -1,0 +1,1 @@
+execute as @a unless score @s BonedGameBoned matches 1 run tag @s remove Boned
