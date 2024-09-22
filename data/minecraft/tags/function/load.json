@@ -1,5 +1,6 @@
 {
     "values": [
-        "camo:boned/event/load"
+        "camo:boned/event/load",
+        "camo:boned/config/update"
     ]
 }

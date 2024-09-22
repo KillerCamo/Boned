@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:porkchop"
+    },
+    "title": "Sausauge Party",
+    "description": "Try to obtain more than one bone.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "camo:boned/gameplay/gameplay_root",
+  "criteria": {
+    "boned": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "boned"
+    ]
+  ]
+}
