@@ -3,8 +3,8 @@ execute if score GameState BonedGame matches 1 run return run tellraw @p {"text"
 
 tag @r[tag=!BonedBlacklist] add BonedTransfer
 scoreboard players set @a[tag=BonedTransfer] BonedGameBoned 1
+scoreboard players add @a[tag=BonedTransfer] BonedGameLeaderboard 1
 tag @a[tag=BonedTransfer] add Boned
-say @a[tag=Boned] has the boned!
 tag @a[tag=BonedTransfer] remove BonedTransfer
 function camo:boned/event/give_bone
 scoreboard players set GameState BonedGame 1
