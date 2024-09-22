@@ -1,1 +1,0 @@
-attribute @a[tag=BoneMe,limit=1] generic.max_health base set 20

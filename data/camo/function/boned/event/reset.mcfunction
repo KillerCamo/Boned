@@ -5,5 +5,3 @@ tag @a remove BonedImmunity
 scoreboard players reset * BonedGameTagBacks
 clear @a bone[custom_data={Boned:1b}]
 scoreboard players set GameState BonedGame 0
-
-# return run function camo:boned/events/reset
