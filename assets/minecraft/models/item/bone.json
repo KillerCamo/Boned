@@ -1,0 +1,40 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/bone"
+    },
+    "display": {
+        "head": {
+            "rotation": [ 0, 0, -45 ],
+            "translation": [ 0, -4.5, -6.5],
+            "scale":[ 1, 1, 1 ]
+        }
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1},"model": "camo:item/boned_1"},
+        {"predicate": {"custom_model_data": 2},"model": "camo:item/boned_2"},
+        {"predicate": {"custom_model_data": 3},"model": "camo:item/boned_3"},
+        {"predicate": {"custom_model_data": 4},"model": "camo:item/boned_4"},
+        {"predicate": {"custom_model_data": 5},"model": "camo:item/boned_5"},
+        {"predicate": {"custom_model_data": 6},"model": "camo:item/boned_6"},
+        {"predicate": {"custom_model_data": 7},"model": "camo:item/boned_7"},
+        {"predicate": {"custom_model_data": 8},"model": "camo:item/boned_8"},
+        {"predicate": {"custom_model_data": 9},"model": "camo:item/boned_9"},
+        {"predicate": {"custom_model_data": 10},"model": "camo:item/boned_10"},
+        {"predicate": {"custom_model_data": 11},"model": "camo:item/boned_11"},
+        {"predicate": {"custom_model_data": 12},"model": "camo:item/boned_12"},
+        {"predicate": {"custom_model_data": 13},"model": "camo:item/boned_13"},
+        {"predicate": {"custom_model_data": 14},"model": "camo:item/boned_14"},
+        {"predicate": {"custom_model_data": 15},"model": "camo:item/boned_15"},
+        {"predicate": {"custom_model_data": 16},"model": "camo:item/boned_16"},
+        {"predicate": {"custom_model_data": 17},"model": "camo:item/boned_17"},
+        {"predicate": {"custom_model_data": 18},"model": "camo:item/boned_18"},
+        {"predicate": {"custom_model_data": 19},"model": "camo:item/boned_19"},
+        {"predicate": {"custom_model_data": 20},"model": "camo:item/boned_20"},
+        {"predicate": {"custom_model_data": 21},"model": "camo:item/boned_21"},
+        {"predicate": {"custom_model_data": 22},"model": "camo:item/boned_22"},
+        {"predicate": {"custom_model_data": 23},"model": "camo:item/boned_23"},
+        {"predicate": {"custom_model_data": 24},"model": "camo:item/boned_24"},
+        {"predicate": {"custom_model_data": 25},"model": "camo:item/boned_25"}
+    ]
+}

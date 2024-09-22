@@ -1,0 +1,6 @@
+{
+    "parent": "camo:item/boned_template",
+    "textures": {
+        "layer0": "camo:item/boned_4"
+    }
+}
