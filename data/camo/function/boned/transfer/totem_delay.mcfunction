@@ -1,0 +1,1 @@
+function camo:boned/transfer/totem_restore with storage camo:boned_data

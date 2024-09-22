@@ -1,1 +1,0 @@
- $clear @a[tag=BonerGuy] bone{Boner:1b} $(boner_on_player)
