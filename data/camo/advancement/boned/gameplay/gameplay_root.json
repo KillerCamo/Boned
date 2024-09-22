@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bone"
+      },
+      "announce_to_chat": false,
+      "show_toast": false,
+      "title": "Boned Game",
+      "description": "Created by Camo. Use '/trigger BonedGameConfig' to start the game!",
+      "frame": "goal"
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shears"
+      },
+      "title": "Privileges Revoked!",
+      "description": "Try to smuggle the bone out of your inventory.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "camo:boned/gameplay/gameplay_root",
+    "criteria": {
+      "boned": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "boned"
+      ]
+    ]
+  }
+  

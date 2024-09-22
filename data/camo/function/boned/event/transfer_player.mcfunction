@@ -1,4 +1,5 @@
 scoreboard players reset * BonedGameBoned
+scoreboard players reset * BonedGameTagBacks
 tag @r[tag=!BonedBlacklist] add BonedTransfer
 scoreboard players set @a[tag=BonedTransfer] BonedGameBoned 1
 scoreboard players add @a[tag=BonedTransfer] BonedGameLeaderboard 1
