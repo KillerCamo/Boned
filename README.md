@@ -6,6 +6,7 @@ Simply install the datapack and have an operator run '/trigger BonedGameConfig' 
 
 ![2024-09-22_13 52 10](https://github.com/user-attachments/assets/a8754dfe-6269-4d62-96b1-b2b2de113e0d)
 
+[Trailer Here](https://youtu.be/KGBSDLu2qI4?si=jWLCaW4G9FK0EzJq)
 
 # How to play
 As soon as the game is started a player will recieve a bone. The player must search for another player and hit them with the bone to get rid of it and tag them. When a player is tagged they will be affected by knockback. Each time a player is hit they will unlock an advancement annoucing how many times they've been tagged. Please note this has a cap of 25 and from playtesting usually we declare this player the loser.
@@ -25,7 +26,7 @@ This pack adds a few gameplay advancements and has an optional resource pack tha
 
 - **Totem Animation** : When a player hits another player with the bone, it will play the totem animation but with the bone item... it's really cool looking!
 
-- **Bone growth** : Depending on how many times a player has been tagged, it will result in the bone changing length
+- **Bone growth** : Depending on how many times a player has been tagged, it will result in the bone changing length (Requires Resource Pack)
 
 ![2024-09-22_13 55 35](https://github.com/user-attachments/assets/14177cdc-46c5-428c-895a-b1b4ffc8dda3)
 
