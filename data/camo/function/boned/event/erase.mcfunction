@@ -15,4 +15,6 @@ data remove storage camo:boned_data boned_effects
 data remove storage camo:boned_data potion_counter
 data remove storage camo:boned_data totem_health
 data remove storage camo:boned_data totem_health_max
+data remove storage camo:boned_data totem_health_absorption
 data remove storage camo:boned_data bone_growth
+data remove storage camo:boned_data bundle

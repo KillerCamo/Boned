@@ -21,10 +21,10 @@ execute if items entity @a[tag=Boned] player.crafting.* bone[custom_data={Boned:
 
 # bundle check
 
-execute if items entity @a[tag=Boned] hotbar.* bundle[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_remove
-execute if items entity @a[tag=Boned] inventory.* bundle[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_remove
-execute if items entity @a[tag=Boned] player.cursor bundle[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_remove
-execute if items entity @a[tag=Boned] weapon.offhand bundle[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_remove
+execute if items entity @a[tag=Boned] hotbar.* #minecraft:bundles[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_check
+execute if items entity @a[tag=Boned] inventory.* #minecraft:bundles[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_check
+execute if items entity @a[tag=Boned] player.cursor #minecraft:bundles[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_check
+execute if items entity @a[tag=Boned] weapon.offhand #minecraft:bundles[bundle_contents~{items:{contains:[{items:bone,components:{"minecraft:custom_data":{Boned:1b}}}]}}] run return run function camo:boned/check/bundle_check
 # entity check
 execute as @e[type=#camo:storable_containers] if items entity @s container.* bone[custom_data={Boned:1b}] run execute store result storage camo:boned_data entity_container byte 1 run data get entity @s Items[{id:"minecraft:bone",components:{"minecraft:custom_data":{Boned:1b}}}].Slot
 execute as @e[type=#camo:storable_containers] if items entity @s container.* bone[custom_data={Boned:1b}] run return run function camo:boned/check/entity_container with storage camo:boned_data

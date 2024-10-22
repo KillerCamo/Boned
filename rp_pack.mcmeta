@@ -1,6 +1,15 @@
 {
     "pack": {
-        "pack_format": 34,
-        "description": "Provides some of the (optional) magic to the boned game!"
+        "pack_format": 42,
+        "supported_formats":{"min_inclusive": 34, "max_inclusive": 42},
+        "description": "Provides some of the (optional) Boned magic to the game!"
+    },
+    "overlays": {
+      "entries": [
+        {
+          "formats": {"min_inclusive": 34, "max_inclusive": 34},
+          "directory": "1_21"
+        }
+      ]
     }
     }
