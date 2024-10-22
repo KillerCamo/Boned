@@ -6,7 +6,6 @@ Simply install the datapack and have an operator run '/trigger BonedGameConfig' 
 
 ![2024-09-22_13 52 10](https://github.com/user-attachments/assets/a8754dfe-6269-4d62-96b1-b2b2de113e0d)
 
-[Trailer Here](https://youtu.be/KGBSDLu2qI4?si=jWLCaW4G9FK0EzJq)
 
 # How to play
 As soon as the game is started a player will recieve a bone. The player must search for another player and hit them with the bone to get rid of it and tag them. When a player is tagged they will be affected by knockback. Each time a player is hit they will unlock an advancement annoucing how many times they've been tagged. Please note this has a cap of 25 and from playtesting usually we declare this player the loser.
@@ -53,7 +52,7 @@ A: Boned is flagged as experimental because it adds a custom enchant for the bon
 
 **Q: Will this be backported?**
 
-A: While I do have prototypes of Boned stemming all the way back to 1.19.4, it is unfortunately not in the plans due to how unperformant and messy the code was, and while I COULD rebuild older versions from scratch, I prefer to continue updating it for newer versions and utilize newer tech... so sorry!
+A: While I do have prototypes of Boned stemming all the way back to 1.19.4, it is unfortunately not in the plans due to how unperformant and messy the code was.
 
 **Q: I found a bug!**
 
