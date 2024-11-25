@@ -2,7 +2,6 @@
 tag @a[advancements={camo:boned/function/boned=true}] add BonedTransfer
 scoreboard players set @a[tag=BonedTransfer] BonedGameBoned 1
 scoreboard players add @a[tag=BonedTransfer] BonedGameLeaderboard 1
-execute store result storage camo:boned_data totem_health float 1 run data get entity @a[tag=BonedTransfer,limit=1] Health
 title @a[tag=BonedTransfer] title "Get Boned!"
 
 execute if score TotemAnim BonedGameConfig matches 1 run return run function camo:boned/transfer/totem_give with storage camo:boned_data

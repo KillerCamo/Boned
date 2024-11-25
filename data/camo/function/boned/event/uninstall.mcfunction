@@ -1,3 +1,5 @@
+scoreboard players reset * BonedGameBoned
+tag @a remove Boned
 function camo:boned/event/erase
 data remove storage camo:boned_data container
 data remove storage camo:boned_data entity_container

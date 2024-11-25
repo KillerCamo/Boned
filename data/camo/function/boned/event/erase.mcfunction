@@ -1,3 +1,4 @@
+scoreboard players reset * BonedGameBoned
 function camo:boned/event/reset
 tag @a remove BonedBlacklist
 scoreboard players reset * BonedGameAdvancements
@@ -11,10 +12,12 @@ data remove storage camo:boned_data bonemeal_uuid_3
 data remove storage camo:boned_data selected_potion_id
 data remove storage camo:boned_data selected_potion_amplifier
 data remove storage camo:boned_data selected_potion_duration
+data remove storage camo:boned_data infinite_potion_duration_check
 data remove storage camo:boned_data boned_effects
 data remove storage camo:boned_data potion_counter
 data remove storage camo:boned_data totem_health
 data remove storage camo:boned_data totem_health_max
 data remove storage camo:boned_data totem_health_absorption
+data remove storage camo:boned_data totem_damage
 data remove storage camo:boned_data bone_growth
 data remove storage camo:boned_data bundle

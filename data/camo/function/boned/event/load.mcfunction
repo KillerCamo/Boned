@@ -15,5 +15,5 @@ scoreboard players set TotemAnim BonedGameConfig 0
 scoreboard players set BoneGrowth BonedGameConfig 0
 scoreboard players add Tagbacks BonedGameConfig 1
 say Boned installed! (V1.1.0)
-scoreboard players set ConfigVersion BonedGame 1
+scoreboard players set ConfigVersion BonedGame 2
 scoreboard players set BaseInstallation BonedGame 1
