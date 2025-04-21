@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:block_based",
+  "environment": "minecraft:default",
+  "max_ticks": 100,
+  "required": true,
+  "setup_ticks": 1,
+  "required_successes": 1,
+  "max_attempts": 3,
+  "sky_access": false,
+  "manual_only": true,
+  "structure": "camo:config_toggle_test"
+}

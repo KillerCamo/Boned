@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:function",
+"setup": "camo:boned/test_framework/tagging"
+}
