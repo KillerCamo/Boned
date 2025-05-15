@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "text" : "Boned Config Settings"
+    },
+    "external_title": {
+        "text": "Boned Config"
+    },
+    "actions" : [
+{
+"label" : {"text" : "Start Random Game"},
+"tooltip" : {"text": "Starts the game and randomly assigns the bone to a player."},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "function camo:boned/event/start_game"}
+}
+		],
+"on_cancel": {"action": "show_dialog", "dialog": "camo:boned_menu"}
+}

@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "text" : "Boned Menu"
+    },
+    "external_title": {
+        "text": "Boned"
+    },
+    "actions" : [
+{
+"label" : {"text" : "Start Random Game"},
+"tooltip" : {"text": "Starts the game and randomly assigns the bone to a player."},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "function camo:boned/event/start_game"}
+},
+{
+"label" : {"text" : "Start Specific Game"},
+"tooltip" : {"text": "Starts the game and allows you to assign the bone to a player."},
+"width" : 200,
+"on_click": {"action": "suggest_command", "command": "/function camo:boned/event/start_game_specific_player {player:}"}
+},
+{
+"label" : {"text" : "Reset Game"},
+"tooltip" : {"text": "Removes the current boned user and stops the game."},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "/function camo:boned/event/start_game_specific_player {player:}"}
+},
+{
+"label" : {"text" : "Transfer Player"},
+"tooltip" : {"text": "Randomly transfers the bone to an online player."},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "/function camo:boned/event/transfer_player"}
+},
+{
+"label" : {"text" : "Erase Data", "color" : "red"},
+"tooltip" : {"text": "Ends the game, boned scores, advancements, and purges storage data. Note: if an offline player has the boned tag, that will not be removed.","color": "red"},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "/function camo:boned/event/erase"}
+},
+{
+"label" : {"text" : "Uninstall Datapack", "color": "red"},
+"tooltip" : {"text": "Ends the game, boned scores, advancements, and purges storage data but requires an operator to disable/remove the datapack before reload. Note: if an offline player has the boned tag, that will not be removed.","color": "red"},
+"width" : 200,
+"on_click": {"action": "run_command", "command": "/function camo:boned/event/uninstall"}
+},
+{
+"label" : {"text" : "Config"},
+"tooltip" : {"text": "Offers settings to toggle and change in the boned menu"},
+"width" : 200,
+"on_click": {"action": "show_dialog", "dialog": "camo:boned_config"}
+}
+		]
+}
