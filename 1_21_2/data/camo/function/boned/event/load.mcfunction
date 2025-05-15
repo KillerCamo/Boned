@@ -12,7 +12,7 @@ execute if score BaseInstallation BonedGame matches 1 run return run function ca
 data merge storage camo:boned_data {horse_container:0b,ender_chest:0b,container:0b,entity_container:0b,frame_container:0b}
 scoreboard players set TotemAnim BonedGameConfig 1
 scoreboard players set BoneGrowth BonedGameConfig 0
-scoreboard players add Tagbacks BonedGameConfig 1
-say Boned installed! (V1.1.0)
-scoreboard players set ConfigVersion BonedGame 3
+scoreboard players add Tagbacks BonedGameConfig 0
+say Boned installed! (V1.1.3)
+scoreboard players set ConfigVersion BonedGame 4
 scoreboard players set BaseInstallation BonedGame 1

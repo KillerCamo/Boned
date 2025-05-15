@@ -1,3 +1,4 @@
+execute if score ConfigVersion BonedGameConfig matches 4 run return 0
 execute if score ConfigVersion BonedGame matches 1 run scoreboard players set Tagbacks BonedGameConfig 1
 execute if score ConfigVersion BonedGame matches 2 run scoreboard players set TotemAnim BonedGameConfig 1
 execute if score ConfigVersion BonedGame matches 2 run say Boned Configuration Settings Updated to V2!
@@ -12,4 +13,6 @@ execute if score ConfigVersion BonedGame matches 3 run data remove storage camo:
 execute if score ConfigVersion BonedGame matches 3 run data remove storage camo:boned_data infinite_potion_duration_check
 execute if score ConfigVersion BonedGame matches 3 run data remove storage camo:boned_data boned_effects
 execute if score ConfigVersion BonedGame matches 3 run data remove storage camo:boned_data potion_counter
-scoreboard players set ConfigVersion BonedGame 3
+execute if score ConfigVersion BonedGame matches 4 run scoreboard players set Tagbacks BonedGameConfig 0
+execute if score ConfigVersion BonedGame matches 4 run say Boned Configuration Settings Updated to V4!
+scoreboard players set ConfigVersion BonedGame 4
