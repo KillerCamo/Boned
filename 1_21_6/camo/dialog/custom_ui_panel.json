@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:simple_input_form",
+  "title": { "text": "Are you sure you want to confirm?" },
+  "external_title": {"text": "Custom UI Panel"},
+   "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents" : {
+        "text" : "Hi this is a really long scary message!"
+      },
+      "width" : 250
+    },
+    {
+      "type" : "minecraft:item",
+      "item" : {
+        "id" : "netherite_hoe",
+        "count" : 1
+      },
+      "description": {
+        "contents" : {"text" : "mqez"}
+      },
+      "width" : 64,
+      "height" : 64
+     }
+   ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "text_input",
+      "label": "Enter some text"
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "boolean",
+      "label": "Checkbox"
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "options",
+      "label": "Checkbox",
+      "options": [
+        {
+          "id": "option1",
+          "display": "Option 1"
+        },
+        {
+          "id": "option2",
+          "display": "Option 2"
+        },
+        {
+          "id": "option3",
+          "display": "Option 3"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "number",
+      "label": "Number range",
+      "start": 0,
+      "end": 500,
+      "steps": 500,
+      "initial": 250
+    }
+  ],
+  "action": { "label": "Done", "id": "submit", "on_submit": { "type": "command_template", "template": "tellraw @a 'text value: \"$(text_input)\"\\ncheckbox value: \"$(boolean)\"\\nmulti option value: \"$(options)\"\\nrange value: \"$(number)\"'" } }
+}
