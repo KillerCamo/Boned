@@ -1,4 +1,4 @@
-execute if score ConfigVersion BonedGameConfig matches 4 run return 0
+execute if score ConfigVersion BonedGame matches 4 run return 0
 execute if score ConfigVersion BonedGame matches 1 run scoreboard players set Tagbacks BonedGameConfig 1
 execute if score ConfigVersion BonedGame matches 2 run scoreboard players set TotemAnim BonedGameConfig 1
 execute if score ConfigVersion BonedGame matches 2 run say Boned Configuration Settings Updated to V2!

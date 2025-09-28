@@ -1,1 +1,0 @@
-execute as KillerCamo at @e[tag=fail,limit=1,type=armor_stand,sort=nearest] run setblock ~ ~ ~ redstone_block

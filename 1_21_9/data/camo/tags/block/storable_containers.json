@@ -1,0 +1,16 @@
+{
+    "values": [
+	"#camo:chests",
+        "minecraft:hopper",
+        "#minecraft:shulker_boxes",
+        "minecraft:decorated_pot",
+        "minecraft:smoker",
+        "minecraft:blast_furnace",
+        "minecraft:furnace",
+        "minecraft:crafter",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:barrel",
+    "#camo:shelves"
+    ]
+}

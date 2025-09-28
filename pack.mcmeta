@@ -1,5 +1,7 @@
 {
   "pack": {
+      "min_format" : 48,
+      "max_format": [88,999],
       "pack_format": 48,
       "supported_formats":{"min_inclusive": 48, "max_inclusive": 81},
       "description": "Implements Boned to the server!"
@@ -8,15 +10,27 @@
     "entries": [
       {
         "formats": {"min_inclusive": 57, "max_inclusive": 999},
+	"min_format": 57,
+	"max_format": [999,999],
         "directory": "1_21_2"
       },
       {
         "formats": {"min_inclusive": 61, "max_inclusive": 999},
+	"min_format": 61,
+        "max_format": [999,999],
         "directory": "1_21_4"
       },
       {
         "formats": {"min_inclusive": 71, "max_inclusive": 999},
+	"min_format": 71,
+        "max_format": [999,999],
         "directory": "1_21_5"
+      },
+      {
+        "formats": {"min_inclusive": 88, "max_inclusive": 999},
+	"min_format": 88,
+        "max_format": [999,999],
+        "directory": "1_21_9"
       }
     ]
   }
